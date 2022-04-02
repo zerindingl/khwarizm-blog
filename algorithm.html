@@ -4,7 +4,7 @@ layout: default
 
 <div class = "articles">
   { % for article in site.categories.alogrithm %}
-  <div calss = "article-node">
+   <div calss = "article-node">
     <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
       <div class = "article-node-img">
         <img src = "{{site.baseurl}}{{article.img}}">
@@ -12,4 +12,5 @@ layout: default
       </a>
    </div>
   {% endfor %}
-  </div>
+  
+</div>
